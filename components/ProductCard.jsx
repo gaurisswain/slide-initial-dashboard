@@ -10,7 +10,7 @@ const ProductCard = (props) => {
       </div>
       <div className="bg-slate-200 rounded-md p-5 flex flex-col gap-2">
         <div className="text-slate-700">{props.title}</div>
-        <div className="text-slate-600">{props.stockCount} in stock</div>
+        <div className="text-slate-600">{props.stockCount} In Stock</div>
         <div className="w-1/3">
           <Button>Remove</Button>
         </div>

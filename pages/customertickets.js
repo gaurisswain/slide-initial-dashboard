@@ -5,7 +5,7 @@ const customertickets = () => {
   return (
     <>
       <Header>
-        <div>Hello Customer</div>
+        
       </Header>
     </>
   );

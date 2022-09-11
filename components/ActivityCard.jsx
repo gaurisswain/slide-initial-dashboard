@@ -1,5 +1,7 @@
 import React from "react";
 import Button from "./Button";
+import Link from "next/link";
+import { useRouter } from "next/router";
 
 const ActivityCard = (props) => {
   return (
@@ -8,7 +10,9 @@ const ActivityCard = (props) => {
         <img src="/shirtModel.png" alt="image" className="w-full h-auto" />
       </div>
       <div className="w-full">
-        <Button btnType="primary">Tag Products</Button>
+        <Link href="/tag">
+          <Button btnType="primary">Tag Products</Button>
+        </Link>
       </div>
       <div className="w-full">
         <Button btnType="secondary">Content Sales Report</Button>
