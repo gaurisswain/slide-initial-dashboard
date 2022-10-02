@@ -709,7 +709,7 @@ label h6 {
   background-color: white;
   border-radius: 10px;
   width: 775px;
-  height: 165px;
+  /* height: 165px; */
   margin-left: 10px;
   margin-top:10px;
 }

@@ -7,7 +7,7 @@ const orders = () => {
     <div>
       <Header>
         <div>
-          <table class="table table-dark bg-dark " style={{ borderRadius: 10 + 'px', }}>
+          <table class="table table-dark bg-dark " style={{ borderRadius: 100 + 'px', }}>
             <thead>
               <tr>
                 <td
@@ -81,7 +81,7 @@ const orders = () => {
             <tbody>
               <tr>
               <Link href="/orderdet">
-                <th scope="row" class="orderid">
+                <th scope="row" class="orderid" style={{cursor: "pointer"}}>
                   #1003
                 </th>
                 </Link>
@@ -126,7 +126,7 @@ const orders = () => {
               </tr>
               <tr>
               <Link href="/orderdet">
-                <th scope="row" class="orderid">
+                <th scope="row" class="orderid" style={{cursor: "pointer"}}>
                   #1003
                 </th>
                 </Link>
@@ -171,7 +171,7 @@ const orders = () => {
               </tr>
               <tr>
                 <Link href="/orderdet">
-                <th scope="row" class="orderid">
+                <th scope="row" class="orderid" style={{cursor: "pointer"}}>
                   #1003
                 </th>
                 </Link>
